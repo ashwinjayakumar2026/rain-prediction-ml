@@ -60,6 +60,27 @@ Given daily weather conditions, predict whether rainfall will occur (binary clas
 * Wind Speed: 0.16
 * Wind Direction: 0.16
 
+## Sample Predictions
+
+| Avg Temp | Max Temp | Min Temp | Wind Speed | Wind Dir | Predicted Rain | Probability |
+| -------- | -------- | -------- | ---------- | -------- | -------------- | ----------- |
+| 88       | 98       | 77       | 2.60       | 19       | 1              | 0.70        |
+| 83       | 89       | 77       | 6.48       | 22       | 1              | 0.91        |
+| 44       | 55       | 33       | 2.08       | 26       | 1              | 0.82        |
+| 68       | 77       | 59       | 3.77       | 13       | 1              | 0.71        |
+| 61       | 73       | 47       | 4.45       | 17       | 1              | 0.75        |
+
+## Visualizations
+
+### Rain Distribution
+![Rain Distribution](rain_distribution.png)
+
+### Temperature vs Rain
+![Temperature vs Rain](temp_vs_rain.png)
+
+### Feature Correlation
+![Correlation Heatmap](correlation_heatmap.png)
+
 ## Conclusion
 
 The model successfully predicts rainfall using weather variables, demonstrating the effectiveness of machine learning for weather-based classification tasks.
@@ -83,13 +104,13 @@ The model successfully predicts rainfall using weather variables, demonstrating 
 * Scikit-learn
 * Matplotlib / Seaborn
 
-## Author
-
-Ashwin Jayakumar
-
 ## Data Source
 
 Dataset obtained from Kaggle:
 https://www.kaggle.com/datasets/aiswaryasivakumar/rain-dataset
 
-Original dataset by Aiswarya Sivakumar.
+Original dataset by Aiswarya Sivakumar
+
+## Author
+
+Ashwin Jayakumar
