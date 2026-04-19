@@ -1,5 +1,9 @@
 # Rainfall Prediction using Machine Learning
 
+⚠️ This is an initial baseline version of the project.  
+ For the advanced ensemble and deployed version, see:  
+https://github.com/ashwinjayakumar2026/rain-fall-prediction-ensemble-ml
+
 ## Overview
 
 This project builds a machine learning model to predict rainfall occurrence based on weather variables such as temperature and wind conditions.
